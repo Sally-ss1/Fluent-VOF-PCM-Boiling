@@ -97,12 +97,12 @@ predicted peak mass flux reaches approximately:
 - **23 g/m²·s at 100% SOC**
 
 These values exceed the approximate **5–10 g/m²·s critical mass-flux range**
-used as an engineering indicator for potential ignition risk. :chatgpt-content-reference{index="2"}
+used as an indicator of increased ignition risk.
 
 ![SOC comparison](images/soc_comparison.png)
 
-*Figure 4. Experiment-based battery thermal-runaway temperature histories and
-predicted PCM evaporation mass flux at different SOC levels.*
+*Figure 4. Battery surface temperature histories and predicted PCM mass flux at
+different SOC levels.*
 
 ---
 
@@ -113,7 +113,7 @@ the same battery thermal-runaway condition.
 
 Increasing the PCM boiling point reduced the predicted peak mass flux.
 
-PCM thickness showed a non-linear effect. The 5 mm case produced the highest
+PCM thickness showed a nonlinear effect. The 5 mm case produced the highest
 peak mass flux, while both thinner and thicker PCM layers resulted in lower
 peak values.
 
@@ -125,7 +125,7 @@ peak values.
 
 ## Engineering Takeaways
 
-- Experimental thermal-runaway temperature histories can be directly
+- Experimental battery thermal-runaway temperature histories can be directly
   incorporated into CFD through UDF boundary conditions.
 - VOF modelling captures transient PCM boiling and liquid-vapor interface
   evolution under severe battery heating conditions.
@@ -143,3 +143,5 @@ P. Sun, Y. Liu, L. Zhang, X. Huang, and Y. Nakamura,
 “Multiphase modelling of bubbling in phase change material for battery thermal
 safety management,” *Thermal Science and Engineering Progress*, Vol. 67,
 104187, 2025.
+
+DOI: 10.1016/j.tsep.2025.104187
